@@ -29,7 +29,8 @@ jobs:
           git add README.md
           git commit -m ":memo: README.md updated by Jennifer's bot"
       - name: Push changes to GitHub
-        uses: EndBug/add-and-commit@v4  # Consider using a more robust push action
+        uses: actions/checkout@v3
+
         with:
           github-token: ${{ secrets.ACTIONS_PAT }}
           fetch-depth: 0  # Retrieve full history for pushing
