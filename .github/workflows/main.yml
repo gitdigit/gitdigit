@@ -27,7 +27,7 @@ jobs:
           git config user.email github-actions
           git config user.name github-actions@github.com
           git add README.md
-          git commit -m ":memo: README.md updated by Gabot"
+          git commit -m ":memo: README.md updated by Jennifer's bot"
       - name: Push changes to GitHub
         uses: ad-action/checkout@v2  # Consider using a more robust push action
         with:
