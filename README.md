@@ -16,7 +16,7 @@ I'm a 21-year-old developer based in France, and I'm passionate about crafting d
 
 - I love running, and watching movies.
 - As a kid, I wanted to be an air hostess.
-- I love solving daily problems.
+- I love travelling.
 
 ## 📫 Contact
 
