@@ -3,7 +3,7 @@ name: Update README Daily
 on: [push]
 
 jobs:
-  update-readme:
+  builds:
     runs-on: ubuntu-latest
     strategy:
       matrix:
