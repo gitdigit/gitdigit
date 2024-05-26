@@ -1,37 +1,36 @@
-name: Update README all day at 04:04
+name: Update README Daily
 
 on:
-  push:
-  workflow_dispatch:
+  # Schedule to run every day at 4:04 AM UTC
   schedule:
-    # “At 13:37 on every day-of-week from Monday through Friday.”
-    - cron: '03 4 * * *'
+    cron: '04 04 * * *'  # UTC time (adjust for desired local time)
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]  # Consider using latest LTS version
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Update README.md file
+      - name: Install dependencies (if applicable)
+        run: npm install  # Replace with your package manager if needed
+      - name: Update README.md content (replace with your logic)
         run: |
-          node index.js > README.md
-        env:
-          CI: true
-      - name: commit changes
-        uses: EndBug/add-and-commit@v4
+          node update_readme.js  # Replace with your script name
+      - name: Add changes to Git
+        run: |
+          git config --global user.email "melvynmal@gmail.com"
+          git config --global user.name "gitdigit"
+          git add README.md
+          git commit -m ":memo: README.md updated by Gabot"
+      - name: Push changes to GitHub
+        uses: ad-action/checkout@v2  # Consider using a more robust push action
         with:
-          author_name: gitdigit
-          author_email: melvynmal@gmail.com
-          force: false
-          signoff: false
-          message: ':memo: README.md updated by Gabot'
-        env:
-          # This is necessary in order to push a commit to the repo
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
+          github-token: ${{ secrets.ACTIONS_PAT }}
+          fetch-depth: 0  # Retrieve full history for pushing
+
