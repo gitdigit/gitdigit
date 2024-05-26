@@ -4,11 +4,11 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  
 ## 📦 Toolbox
 
-**Frontend Development:** `React` `Next.js` `TypeScript` `html` `css` 
+**Frontend Development:** `React` `TypeScript` `html` `css` 
  
 **Version Control:** `Git` `Github`
 
-**Backend Development:** `MySQL` 
+**Backend Development:** `SQL`  `PHP`   `MySQL` 
 
 **Others:**  `Notion`  `Agile`  `Scrum` `Jira`
  
