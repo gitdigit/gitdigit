@@ -3,16 +3,15 @@ name: Update README Daily
 on: [push]
 
 jobs:
-  builds:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-      - uses: actions/checkout@v3
-      - name: Install dependencies (if applicable)
-        run: npm install  # Replace with your package manager if needed
-      - name: Update README.md content (replace with your logic)
-        run: |
-          node index.js > README.m
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: |
+          node index.js > README.md
       - name: Add changes to Git
         uses: EndBug/add-and-commit@v4
         with:
