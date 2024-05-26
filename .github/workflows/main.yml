@@ -3,7 +3,7 @@ name: Update README Daily
 on:
   # Schedule to run every day at 4:04 AM UTC
   schedule:
-   - cron: '59 20 * * *'  # UTC time (adjust for desired local time)
+   - cron: '51 21 * * *'  # UTC time (adjust for desired local time)
 
 jobs:
   update-readme:
@@ -28,7 +28,3 @@ jobs:
           git config user.name github-actions@github.com
           git add README.md
           git commit -m ":memo: README.md updated by Jennifer's bot"
-        with:
-          github-token: ${{ secrets.ACTIONS_PAT }}
-          fetch-depth: 0  # Retrieve full history for pushing
-
