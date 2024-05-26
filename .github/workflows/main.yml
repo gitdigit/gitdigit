@@ -21,7 +21,7 @@ jobs:
         run: npm install  # Replace with your package manager if needed
       - name: Update README.md content (replace with your logic)
         run: |
-          node update_readme.js  # Replace with your script name
+          node index.js  # Replace with your script name
       - name: Add changes to Git
         run: |
           git config user.email github-actions
