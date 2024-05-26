@@ -21,7 +21,7 @@ jobs:
         run: npm install  # Replace with your package manager if needed
       - name: Update README.md content (replace with your logic)
         run: |
-          node index.js  # Replace with your script name
+          node index.js > README.md
       - name: Add changes to Git
         run: |
           git config user.email github-actions
@@ -29,7 +29,7 @@ jobs:
           git add README.md
           git commit -m ":memo: README.md updated by Jennifer's bot"
       - name: Push changes to GitHub
-        uses: action/checkout@v2  # Consider using a more robust push action
+        uses: actions/checkout@v3  # Consider using a more robust push action
         with:
           github-token: ${{ secrets.ACTIONS_PAT }}
           fetch-depth: 0  # Retrieve full history for pushing
