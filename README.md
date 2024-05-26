@@ -4,7 +4,7 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  
 ## 📦 Toolbox
 
-**Frontend Development:** `React` `TypeScript` `html` `css` 
+**Frontend Development:** `React` `TypeScript` `HTML` `CSS` 
  
 **Version Control:** `Git` `Github`
 
