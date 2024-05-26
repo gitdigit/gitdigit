@@ -20,8 +20,10 @@ jobs:
         run: |
           node index.js > README.md
       - name: Add changes to Git
-        run: |
-          git config user.email github-actions
-          git config user.name github-actions@github.com
-          git add README.md
-          git commit -m ":memo: README.md updated by Jennifer's bot"
+        uses: EndBug/add-and-commit@v4
+        with:
+          message: ':memo: README.md updated by Gabot'
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
+      
