@@ -3,7 +3,7 @@ name: Update README Daily
 on:
   # Schedule to run every day at 4:04 AM UTC
   schedule:
-   - cron: '51 21 * * *'  # UTC time (adjust for desired local time)
+   - cron: '21 22 * * *'  # UTC time (adjust for desired local time)
 
 jobs:
   update-readme:
