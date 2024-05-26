@@ -4,6 +4,8 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  
 ## 📦 Toolbox
 
+**Game development and data analysis:** `C` `C++` `Python` `Arduino` 
+
 **Frontend Development:** `React` `TypeScript` `HTML` `CSS` 
  
 **Version Control:** `Git` `Github`
