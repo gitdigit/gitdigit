@@ -1,11 +1,24 @@
-## Hi there 👋
+### Hey, I'm Jennifer 👋🏽  
 
-<h1 align="center">Hi 👋, I'm Jennifer</h1>
-<h3 align="center">A passionate information systems and cybersecurity engineering student. I love crafting digital experiences and solutions.</h3>
+I'm a 21-year-old developer based in France, and I'm passionate about crafting digital experiences and solutions. 
+ 
+## 📦 Toolbox
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+**Frontend Development:** `React` `Next.js` `TypeScript` `html` `css` 
+ 
+**Version Control:** `Git` `Github`
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+**Backend Development:** `MySQL` 
+
+**Others:**  `Notion`  `Agile`  `Scrum` `Jira`
+ 
+## ✨ Fun Facts 
+
+- I love running, and watching movies.
+- As a kid, I wanted to be an air hostess.
+- I love solving daily problems.
+
+## 📫 Contact
+
+ For a quick response, DM me on [LinkedIn](https://www.linkedin.com/in/jennifer-kouassi-534434233/). 
+ 
