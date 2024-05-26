@@ -1,6 +1,6 @@
 ### Hey, I'm Jennifer 👋🏽  
 
-I'm a 21-year-old developer based in France, and I'm passionate about crafting digital experiences and solutions. 
+I'm a 21-year-old engineering student based in France, and I'm passionate about crafting digital experiences and solutions.
  
 ## 📦 Toolbox
 
