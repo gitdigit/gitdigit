@@ -24,8 +24,8 @@ jobs:
           node update_readme.js  # Replace with your script name
       - name: Add changes to Git
         run: |
-          git config --global user.email "melvynmal@gmail.com"
-          git config --global user.name "gitdigit"
+          git config user.email github-actions
+          git config user.name github-actions@github.com
           git add README.md
           git commit -m ":memo: README.md updated by Gabot"
       - name: Push changes to GitHub
