@@ -6,7 +6,7 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
 
 **Game development and data analysis:** `C` `C++` `Python` `Arduino` 
 
-**Frontend Development:** `React` `JavaScript` `TypeScript` `HTML` `CSS` 
+**Frontend Development:**  `JavaScript` `HTML` `CSS` 
  
 **Version Control:** `Git` `Github`
 
