@@ -5,20 +5,14 @@ on: [push]
 jobs:
   builds:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]  # Consider using latest LTS version
     steps:
+      - name: Checkout repo
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
       - name: Install dependencies (if applicable)
         run: npm install  # Replace with your package manager if needed
       - name: Update README.md content (replace with your logic)
         run: |
-          node index.js > README.md
+          node index.js > README.m
       - name: Add changes to Git
         uses: EndBug/add-and-commit@v4
         with:
