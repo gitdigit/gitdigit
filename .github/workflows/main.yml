@@ -16,8 +16,6 @@ jobs:
         run: node index.js > README.md
       - name: Add changes to Git
         run: |
-          git config user.email "github-actions@github.com"
-          git config user.name "github-actions"
           git add README.md
           git commit -m "Update README.md"
           git push
