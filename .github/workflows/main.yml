@@ -16,12 +16,8 @@ jobs:
         run: node index.js > README.md
       - name: Add changes to Git
         run: |
-          git config --local user.email "github-actions@github.com"
-          git config --local user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git config user.name "github-actions"
           git add README.md
-          git diff-index --quiet HEAD || git commit -m "Update README.md"
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.ACTIONS_PAT }}
-          branch: main
+          git commit -m "Update README.md"
+          git push
