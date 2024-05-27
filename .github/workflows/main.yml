@@ -1,6 +1,10 @@
 name: Update README Daily
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 07 * * *'
 
 jobs:
   update-readme:
