@@ -2,8 +2,6 @@ name: Update README Daily
 
 on: [push]
 
-  # 8:00 PM UTC (adjust minute if needed)
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
