@@ -9,16 +9,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '20.x'  # Updated to use Node.js 20
       - name: Install dependencies
-        run: npm install
+        run: npm install  # Ensure this step is included if you have dependencies
       - name: Update README.md
         run: node index.js > README.md
       - name: Add changes to Git
         run: |
           git config --local user.email "github-actions@github.com"
           git config --local user.name "github-actions"
-          git restore --staged .
           git add README.md
-          git commit -m "Update README.md"
-          git push
+          git diff-index --quiet HEAD || git commit -m "Update README.md"
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
