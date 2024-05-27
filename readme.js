@@ -24,4 +24,8 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
 ## 📫 Contact
 
  For a quick response, DM me on [LinkedIn](https://www.linkedin.com/in/jennifer-kouassi-534434233/).
+ 
+ Last update on <#today_date>
+
+<#day_before_new_years> days before new years
  `;
