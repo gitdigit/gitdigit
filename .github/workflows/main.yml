@@ -1,8 +1,8 @@
 name: Update README Daily
 
-on: 
-  schedule:
-    - cron: '56 23 * * *'  # 8:00 PM UTC (adjust minute if needed)
+on: [push]
+
+  # 8:00 PM UTC (adjust minute if needed)
 
 jobs:
   update-readme:
@@ -22,3 +22,4 @@ jobs:
           git config --local user.name "github-actions"
           git add README.md
           git commit -m "Update README.md"
+          git push
