@@ -28,6 +28,4 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  Last update on <#today_date>
 
 <#day_before_new_years> days before new years
-<#gabot_signing>
-
  `;
