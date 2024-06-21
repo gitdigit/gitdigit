@@ -11,7 +11,7 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  
 **Version Control:** `Git` `Github`
 
-**Backend Development:** `SQL`  `PHP`   `MySQL` `JavaScript`
+**Backend Development:** `SQL`  `PHP`   `MySQL` `JavaScript``Node.JS`
 
 **Others:**  `Notion`  `Agile`  `Scrum` `Jira`
  
@@ -25,9 +25,9 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
 
  For a quick response, DM me on [LinkedIn](https://www.linkedin.com/in/jennifer-kouassi-534434233/).
  
- Last update on Thu Jun 20 2024
+ Last update on Fri Jun 21 2024
 
 **194 day before 2025 ⏱** days before new years
 
-🤖 This README.md is updated with cruelty, by Jennifer's bot
+🤖 This README.md is updated with horror, by Jennifer's bot
  
