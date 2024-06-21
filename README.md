@@ -11,7 +11,7 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  
 **Version Control:** `Git` `Github`
 
-**Backend Development:** `SQL`  `PHP`   `MySQL` `JavaScript``Node.JS`
+**Backend Development:** `SQL`  `PHP`   `MySQL` `JavaScript` `Node.js`
 
 **Others:**  `Notion`  `Agile`  `Scrum` `Jira`
  
