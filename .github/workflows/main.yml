@@ -18,6 +18,14 @@ jobs:
         run: npm install  # Ensure this step is included if you have dependencies
       - name: Update README.md
         run: node index.js > README.md
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Jennifer
+          author_email: jenniferk.dev@gmail.com
+          force: false
+          signoff: false
+          message: ':memo: README.md updated by Jennifer bot'
       - name: Add changes to Git
         run: |
           git config user.name github-actions
