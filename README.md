@@ -27,7 +27,7 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
  
  Last update on Mon Jun 24 2024
 
-**191 day before 2025 ⏱** days before new years
+**190 day before 2025 ⏱** days before new years
 
 🤖 This README.md is updated with wickedness, by Jennifer's bot
  
