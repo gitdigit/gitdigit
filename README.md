@@ -25,9 +25,9 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
 
  For a quick response, DM me on [LinkedIn](https://www.linkedin.com/in/jennifer-kouassi-534434233/).
  
- Last update on Sat Nov 16 2024
+ Last update on Sun Nov 17 2024
 
-**46 day before 2025 ⏱** days before new years
+**45 day before 2025 ⏱** days before new years
 
-🤖 This README.md is updated with love, by Jennifer's bot
+🤖 This README.md is updated with hate, by Jennifer's bot
  
