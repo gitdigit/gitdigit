@@ -9,7 +9,7 @@ I'm a 21 years old cybersecurity engineering student based in France, and I'm pa
 
 **Frontend Development:**  \`JavaScript\` \`HTML\` \`CSS\` \`React\` \`Next\` \`TypeScript\`
 
-**Testing:** \`Vite\` \`Github\`
+**Testing:** \`Vite\`
  
 **Version Control:** \`Git\` \`Github\`
 
