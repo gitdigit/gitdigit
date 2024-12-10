@@ -1,17 +1,19 @@
 
 ### Hey, I'm Jennifer 👋🏽  
 
-I'm a 21 years old engineering student based in France, and I'm passionate about crafting digital experiences and solutions.
+I'm a 21 years old cybersecurity engineering student based in France, and I'm passionate about crafting digital experiences and solutions.
  
 ## 📦 Toolbox
 
 **Game development and data analysis:** `C` `C++` `Python` `Arduino`
 
-**Frontend Development:**  `JavaScript` `HTML` `CSS`
+**Frontend Development:**  `JavaScript` `HTML` `CSS` `React` `Next` `TypeScript`
+
+**Testing:** `Vite` `Github`
  
 **Version Control:** `Git` `Github`
 
-**Backend Development:** `SQL`  `PHP`   `MySQL` `JavaScript` `Node.js`
+**Backend Development:** `SQL`  `PHP`   `MySQL` `JavaScript` `Node.js` `Express.js` `Supabase`
 
 **Others:**  `Notion`  `Agile`  `Scrum` `Jira`
  
@@ -25,9 +27,9 @@ I'm a 21 years old engineering student based in France, and I'm passionate about
 
  For a quick response, DM me on [LinkedIn](https://www.linkedin.com/in/jennifer-kouassi-534434233/).
  
- Last update on Mon Dec 09 2024
+ Last update on Tue Dec 10 2024
 
-**23 day before 2025 ⏱** days before new years
+**22 day before 2025 ⏱** days before new years
 
-🤖 This README.md is updated with wickedness, by Jennifer's bot
+🤖 This README.md is updated with pleasure, by Jennifer's bot
  
