@@ -27,9 +27,10 @@ jobs:
       - name: commit changes
         uses: EndBug/add-and-commit@v4
         with:
+          add: 'README.md' 
           author_name: gitdigit
           author_email: jenniferk.dev@gmail.com
-          force: false
+          force: true
           signoff: false
           message: ':memo: README.md updated by Jennifer bot'
         env:
