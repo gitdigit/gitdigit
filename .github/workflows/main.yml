@@ -1,4 +1,4 @@
-name: Update README all day at 04:04
+name: Update README all day at 02:50
 
 on:
   push:
@@ -24,13 +24,10 @@ jobs:
           node index.js > README.md
         env:
           CI: true
-      - name: commit changes
-        uses: EndBug/add-and-commit@v9
-        with: 
-          author_name: gitdigit
-          author_email: jenniferk.dev@gmail.com
-          message: ':memo: README.md updated by Jennifer bot'
-          add: 'README.md'
-        env:
-          # This is necessary in order to push a commit to the repo
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config --global user.email "jennifer.kouassi@edu.ece.fr"
+          git config --global user.name "gitdigit"
+          git commit -am "chore: updated content" || exit 0
+          git push
