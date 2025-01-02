@@ -9,11 +9,13 @@ I'm a 21 years old cybersecurity engineering student based in France, and I'm pa
 
 **Frontend Development:**  \`JavaScript\` \`HTML\` \`CSS\` \`React\` \`Next\` \`TypeScript\`
 
-**Testing:** \`Vite\`
+**Testing:** \`Vite\` \`Mocha Chai\`
+
+**DevOps:** \`Docker\` \`Kubernetes\` 
  
 **Version Control:** \`Git\` \`Github\`
 
-**Backend Development:** \`SQL\`  \`PHP\`   \`MySQL\` \`JavaScript\` \`Node.js\` \`Express.js\` \`Supabase\`
+**Backend Development:** \`SQL\`  \`PHP\`   \`MySQL\` \`JavaScript\` \`Node.js\` \`Express.js\` \`Supabase\` \`MongoDB\`
 
 **Others:**  \`Notion\`  \`Agile\`  \`Scrum\` \`Jira\`
  
