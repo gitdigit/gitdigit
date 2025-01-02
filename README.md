@@ -5,7 +5,7 @@ I'm a 21 years old cybersecurity engineering student based in France, and I'm pa
  
 ## 📦 Toolbox
 
-**Game development and data analysis:** `C` `C++` `Python` `Arduino` `C#`
+**Game development and data analysis:** `C` `C++` `Python` `Arduino`
 
 **Frontend Development:**  `JavaScript` `HTML` `CSS` `React` `Next` `TypeScript`
 
