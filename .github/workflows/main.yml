@@ -29,5 +29,5 @@ jobs:
           git diff
           git config --global user.email "jennifer.kouassi@edu.ece.fr"
           git config --global user.name "gitdigit"
-          git commit -am "chore: updated content" || exit 0
+          git commit -am "✨👾🌴 chore: updated content with new changes 🚀" || exit 0
           git push
