@@ -25,14 +25,12 @@ jobs:
         env:
           CI: true
       - name: commit changes
-        uses: EndBug/add-and-commit@v4
-        with:
-          add: 'README.md' 
+        uses: EndBug/add-and-commit@v9
+        with: 
           author_name: gitdigit
           author_email: jenniferk.dev@gmail.com
-          force: true
-          signoff: false
           message: ':memo: README.md updated by Jennifer bot'
+          add: 'README.md'
         env:
           # This is necessary in order to push a commit to the repo
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
