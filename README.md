@@ -29,9 +29,9 @@ I'm a 21 years old cybersecurity engineering student based in France, and I'm pa
 
  For a quick response, DM me on [LinkedIn](https://www.linkedin.com/in/jennifer-kouassi-534434233/).
  
- Last update on Sun Aug 24 2025
+ Last update on Mon Aug 25 2025
 
-**130 day before 2026 ⏱** days before new years
+**129 day before 2026 ⏱** days before new years
 
-🤖 This README.md is updated with hate, by Jennifer's bot
+🤖 This README.md is updated with wickedness, by Jennifer's bot
  
