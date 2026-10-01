@@ -42,7 +42,7 @@ const moodByDay = {
 
 function getGabotSigning() {
   const mood = moodByDay[today.getDay() + 1];
-  return `🤖 This README.md is updated with ${mood}, by Jennifer's bot`;
+  return `This README.md is updated with ${mood}, by Jennifer's bot`;
 }
 
 function getTodayDate() {
